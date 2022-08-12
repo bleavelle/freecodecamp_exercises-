@@ -1,0 +1,93 @@
+import numpy as np
+
+
+def calculate(list):
+    calculations = {}
+    means = []
+    vars = []
+    stds = []
+    maxs = []
+    mins = []
+    sums = []
+
+    if len(list) != 9:
+        return ValueError("List must contain nine numbers")
+
+
+    # store list as np array
+    a = np.array(list)
+    # calculate flat vals
+    flat_mean = np.mean(a)
+    flat_vars = np.var(a)
+    flat_std = np.std(a)
+    flat_max = np.max(a)
+    flat_min = np.min(a)
+    flat_sum = a.sum()
+    # reshape array
+    a = a.reshape(3, 3)
+
+    # calculate and store means in above lists
+    zero_mean = np.mean(a, axis=0)
+    one_mean = np.mean(a, axis=1)
+
+    means.append(zero_mean.tolist())
+    means.append(one_mean.tolist())
+    means.append(flat_mean)
+
+    # calculate and store vars in above lists
+    zero_vars = np.var(a, axis=0)
+    one_vars = np.var(a, axis=1)
+
+    vars.append(zero_vars.tolist())
+    vars.append(one_vars.tolist())
+    vars.append(flat_vars)
+
+    # calculate and store std in above lists
+    zero_std = np.std(a, axis=0)
+    one_std = np.std(a, axis=1)
+
+    stds.append(zero_std.tolist())
+    stds.append(one_std.tolist())
+    stds.append(flat_std)
+
+    # calculate and store max in above lists
+    zero_max = np.max(a, axis=0)
+    one_max = np.max(a, axis=1)
+
+    maxs.append(zero_max.tolist())
+    maxs.append(one_max.tolist())
+    maxs.append(flat_max)
+
+    # calculate and store min in above lists
+    zero_min = np.min(a, axis=0)
+    one_min = np.min(a, axis=1)
+
+    mins.append(zero_min.tolist())
+    mins.append(one_min.tolist())
+    mins.append(flat_min)
+
+    # calculate and store sums in above lists
+    zero_sum = np.sum(a, axis=0)
+    one_sum = np.sum(a, axis=1)
+
+    sums.append(zero_sum.tolist())
+    sums.append(one_sum.tolist())
+    sums.append(flat_sum)
+
+    # append dictionary with list values
+    calculations['mean'] = means
+    calculations['variance'] = vars
+    calculations['standard deviation'] = stds
+    calculations['max'] = maxs
+    calculations['min'] = mins
+    calculations['sum'] = sums
+
+
+    return calculations
+
+
+
+list = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+print(calculate(list))
+
