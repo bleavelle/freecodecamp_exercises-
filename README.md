@@ -4,7 +4,7 @@ Me answering questions from freecodecamp but with tools I am familiar with.
 
 # DESCRIPTION OF FILES WITHIN REPOSITORY:
 
-### MEANS-VARIANCE-STD CALCULATOR
+### 'MEANS-VARIANCE-STD CALCULATOR'
 My python code for the first challenge, which passed all tests on the replit they provided for the task.
 
 
