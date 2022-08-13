@@ -9,4 +9,4 @@ My python code for the first challenge, which passed all tests on the Replit the
 
 
 ### 'DEMOGRAPHIC DATA ANALYZER':
-These are my answers to the questions for the demographic data analyzer exercise on freecodecamp.com. Instead of using their Replit popup-code-window thing, I just used the prompt to practice using pandas in Jupyter. 
+These are my answers to the questions for the demographic data analyzer exercise on freecodecamp.com. Instead of fussing with their Replit popup-code-window thing, I answered the questions in the prompt using Jupyter. 
