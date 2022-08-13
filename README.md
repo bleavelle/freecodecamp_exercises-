@@ -1,5 +1,5 @@
 # freecodecamp_exercises-
-Me answering questions from freecodecamp but with tools I am familiar with.
+After completing my Data Analysis progrom at CareerFoundry, I decided to go through and complete the excercises available at the end of the Data Analysis curriculum at freecodecamp.org. This repository holds the code for my answers to these questions. 
 
 
 # DESCRIPTION OF FILES WITHIN REPOSITORY:
