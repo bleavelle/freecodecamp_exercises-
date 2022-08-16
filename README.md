@@ -1,4 +1,4 @@
-# freecodecamp_exercises-
+# freecodecamp_exercises- 2/5 complete
 After completing my Data Analysis progrom at CareerFoundry, I decided to go through and complete the excercises available at the end of the Data Analysis curriculum at freecodecamp.org. This repository holds the code for my answers to these questions. 
 
 
