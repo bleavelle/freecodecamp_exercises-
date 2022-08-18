@@ -1,4 +1,4 @@
-# freecodecamp_exercises- 3/5 complete
+# freecodecamp_exercises- 4/5 complete
 After completing my Data Analysis progrom at CareerFoundry, I decided to go through and complete the excercises available at the end of the Data Analysis curriculum at freecodecamp.org. This repository holds the code for my answers to these questions. 
 
 
@@ -13,3 +13,6 @@ These are my answers to the questions for the demographic data analyzer exercise
 
 ### 'MEDICAL DATA VIZ':
 Same as I did with the Demographic Data Analyzer, I completed this using Jupyter instead of using their Replit. I also checked my answers against their examples.
+
+### 'TIME-SERIES-VIZ':
+Again, completed using Jupyter only. Also used Seaborn instead of Matplotlib on one excercise because I like it more. 
